@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "70501032680",
+    "firebase_url": "https://ezgrocery-8cf84.firebaseio.com",
+    "project_id": "ezgrocery-8cf84",
+    "storage_bucket": "ezgrocery-8cf84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70501032680:android:4bb14b18083cad84",
+        "android_client_info": {
+          "package_name": "com.example.ezgrocery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70501032680-g45kauhobsmligpaqgahqkqstctse75m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ezgrocery",
+            "certificate_hash": "3d1b7fa0d3eb166bd4376f7643ac1b97584cc198"
+          }
+        },
+        {
+          "client_id": "70501032680-1c3ds2h5ih4he04cabl19p2uqjt533le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW5b3sWQcV76VhVU9_hH4w0fqaSl4oUw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70501032680-1c3ds2h5ih4he04cabl19p2uqjt533le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

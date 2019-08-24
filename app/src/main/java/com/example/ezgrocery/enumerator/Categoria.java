@@ -1,0 +1,5 @@
+package com.example.ezgrocery.enumerator;
+
+public enum Categoria {
+    LATICINIOS, FRIOS, ACOUGUE, LIMPEZA, CEREAIS, HIGIENE, BEBIDAS_ALCOOLICAS, BEBIDAS_NAO_ALCOOLICAS, MATINAIS, ENLATADOS, IN_NATURA
+}

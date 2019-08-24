@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="112dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="50dp"
+            app:srcCompat="@drawable/logo"
+            tools:layout_editor_absoluteX="50dp" />
+
+        <EditText
+            android:id="@+id/emailtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="309dp" />
+
+        <EditText
+            android:id="@+id/senhatxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="410dp" />
+
+        <Button
+            android:id="@+id/logarbtt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Logar"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="540dp" />
+
+        <Button
+            android:id="@+id/logarTelefonebtt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="Logar com telefone"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="540dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:gravity="center"
+            android:text="Não possui login?" />
+
+        <Button
+            android:id="@+id/cadastrobtt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="120dp"
+            android:onClick="abrirCadastroUsuario"
+            android:text="Cadastre-se" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ezgrocery">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/minilogo2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MapaActivity"></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyATCu4bvlOWNOzun3IJJ2tmvaGvtuUDGzg" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity android:name=".activity.AutenticarTelefone" />
+        <activity android:name=".activity.CadastroTelefone" />
+        <activity android:name=".activity.AdicionarSaldoActivity" />
+        <activity android:name=".activity.admin.admin_cadastrar_cupom" />
+        <activity android:name=".activity.admin.admin_editar_cupom" />
+        <activity android:name=".activity.admin.admin_lista_cupoms" />
+        <activity android:name=".activity.DividirListaActivity" />
+        <activity android:name=".activity.ResgatarCodigoActivity" />
+        <activity android:name=".activity.admin.admin_lista_produto" />
+        <activity android:name=".activity.admin.admin_editar_produto" />
+        <activity android:name=".activity.admin.admin_cadastrar_produto" />
+        <activity android:name=".activity.admin.admin_detalhe_receita" />
+        <activity android:name=".activity.admin.admin_editar_receita" />
+        <activity android:name=".activity.admin.admin_ListaReceitas" />
+        <activity android:name=".activity.ListaProdutosActivity" />
+        <activity android:name=".activity.DeleteListaProdutoActivity" />
+        <activity android:name=".activity.PagPrincipalActivity" />
+        <activity android:name=".activity.DetalheListaProdutosActivity" />
+        <activity android:name=".activity.ListaListaProdutosActivity" />
+        <activity android:name=".activity.CadastroListaActivity" />
+        <activity android:name=".activity.PerfilActivity" />
+        <activity android:name=".activity.DetalheReceitaActivity" />
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.CadastroActivity" />
+        <activity android:name=".activity.ListaReceitasActivity" />
+    </application>
+
+</manifest>

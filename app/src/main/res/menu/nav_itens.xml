@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/perfilmenu"
+        android:title="Profile" />
+    <item
+        android:id="@+id/listasmenu"
+        android:title="Suas listas" />
+    <item
+        android:id="@+id/receitasmenu"
+        android:title="Receitas" />
+    <item
+        android:id="@+id/codigosmenu"
+        android:title="Resgatar Códigos" />
+    <item
+        android:id="@+id/adicionarsaldo"
+        android:title="Adicionar Saldo" />
+    <item
+        android:id="@+id/lojasfisicas"
+        android:title="Lojas Fisicas" />
+    <item
+        android:id="@+id/logoutmenu"
+        android:title="Log Out" />
+</menu>
